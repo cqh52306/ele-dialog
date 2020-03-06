@@ -7,7 +7,7 @@
  * @LastEditTime: 2019-09-18 08:12:03
  -->
 <template>
-  <el-dialog :title="title" :visible="value" :close-on-click-dialog="false" @close="close" :width="width" class="ele-dialog">
+  <el-dialog :title="title" :visible="value" :close-on-click-modal="false" @close="close" :width="width" class="ele-dialog">
     <slot name="dialog-body"></slot>
     <div slot="footer" class="dialog-footer">
       <slot name="dialog-footer">
